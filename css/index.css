@@ -13,6 +13,10 @@ body {
   border-radius: 0;
 }
 
+.search form select.form-select option {
+  text-align: center;
+}
+
 .search form input:focus,
 .search form input:hover {
   background-color: transparent;
@@ -26,6 +30,21 @@ body {
 .menu .nav-item .nav-link {
   margin-top: 0;
   padding: 0 5px;
+}
+
+.banner {
+  margin: 0;
+  padding: 0;
+}
+
+.banner .owl-carousel img {
+  height: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner .owl-carousel img {
+    height: 150px;
+  }
 }
 
 .login .modal-body .list-group .list-group-item i {

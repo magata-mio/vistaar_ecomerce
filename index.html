@@ -20,111 +20,112 @@
     rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/index.css">
-  <title>Bistaar</title>
+  <title>Vistaar</title>
 </head>
 
 <body>
-  <div class="container-fluid bg-success">
-
-  </div>
-  <div class="top"></div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-success border-3">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img class="img-fluid" src="image/logo.png" width="40" alt="">
-      </a>
-      <div class="search border rounded-pill d-none d-sm-block">
-        <form class="d-flex px-3 py-1">
-          <select class="form-select shadow-none border-end" aria-label="Default select example">
-            <option selected hidden>Open this select menu</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
-          <input class="form-control shadow-none me-0" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
-        </form>
-      </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-stream"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <i class="fas fa-sitemap"></i> Category
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Agriculture</a></li>
-              <li><a class="dropdown-item" href="#">Apparel</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Automobiles Two Wheelers</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><i class="fab fa-sellcast"></i> Become a Seller</a>
-          </li>
-          <li class="nav-item">
-
-            <!-- Button trigger modal -->
-            <button type="button" class="btn border border-success p-sm-0 px-3 py-1 shadow-none" data-bs-toggle="modal"
-              data-bs-target="#exampleModal">
-              <a class="nav-link" href="#">Sign In <i class="fas fa-sign-in-alt fs-5"></i></a>
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade login" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header flex-column">
-                    <h5 class="modal-title" id="exampleModalLabel">Get started Now
-                    </h5>
-                    <p>Please Log in to go to your profile</p>
-                    <a href="#" class="btn btn-success btn-sm w-50 shadow-none">Log in</a>
-                    <p class="mt-2">Don't have an account? <a href="#" class="text-decoration-none">Sign up</a></p>
-                  </div>
-                  <div class="modal-body py-0">
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">
-                        <a href="#" class="text-decoration-none border-0"><i class="fas fa-user-cog"></i><span
-                            class="ms-2">Edit Profile</span></a>
-                      </li>
-                      <li class="list-group-item"><a href="#" class="text-decoration-none"><i
-                            class="fas fa-stamp"></i><span class="ms-2">Become a seller</span></a></li></a>
-
-                      <li class="list-group-item"><a href="#" class="text-decoration-none"><i
-                            class="fas fa-bullhorn"></i><span class="ms-2">Advertise with Vistaar</span></a></li>
-                      <li class="list-group-item"><a href="#" class="text-decoration-none"><i
-                            class="fas fa-satellite-dish"></i><span class="ms-2">Request for Quotation</span></a></li>
-                      <li class="list-group-item"><a href="#" class="text-decoration-none"><i
-                            class="fas fa-tasks"></i><span class="ms-2">Enquire & Manage Quotes</span></a></li>
-                    </ul>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-
-        </ul>
-        <div class="d-block d-sm-none">
-          <form class="d-flex px-0 py-1">
-            <input class="form-control shadow-none me-2" type="text" placeholder="Search" aria-label="Search">
+  <!-- Navbar -->
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-success border-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="img-fluid" src="image/logo.png" width="40" alt="">
+        </a>
+        <div class="search border rounded-pill d-none d-sm-block">
+          <form class="d-flex px-3 py-1">
+            <select class=" shadow-none border-end" aria-label="Default select example">
+              <option class="" selected hidden>Location</option>
+              <option value="1">Dharan</option>
+              <option value="2">Biratnagar</option>
+              <option value="3">Kathmandu</option>
+            </select>
+            <input class="form-control shadow-none me-0" type="text" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
           </form>
         </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-stream"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-sitemap"></i> Category
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Agriculture</a></li>
+                <li><a class="dropdown-item" href="#">Apparel</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Automobiles Two Wheelers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fab fa-sellcast"></i> Become a
+                Seller</a>
+            </li>
+            <li class="nav-item">
 
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-success p-sm-0 px-3 py-1 shadow-none"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a class="nav-link" href="#">Sign In <i class="fas fa-sign-in-alt fs-5"></i></a>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade login" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header flex-column">
+                      <h5 class="modal-title" id="exampleModalLabel">Get started Now
+                      </h5>
+                      <p>Please Log in to go to your profile</p>
+                      <a href="#" class="btn btn-success btn-sm w-50 shadow-none">Log in</a>
+                      <p class="mt-2">Don't have an account? <a href="#" class="text-decoration-none">Sign up</a></p>
+                    </div>
+                    <div class="modal-body py-0">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a href="#" class="text-decoration-none border-0"><i class="fas fa-user-cog"></i><span
+                              class="ms-2">Edit Profile</span></a>
+                        </li>
+                        <li class="list-group-item"><a href="#" class="text-decoration-none"><i
+                              class="fas fa-stamp"></i><span class="ms-2">Become a seller</span></a></li></a>
+
+                        <li class="list-group-item"><a href="#" class="text-decoration-none"><i
+                              class="fas fa-bullhorn"></i><span class="ms-2">Advertise with Vistaar</span></a></li>
+                        <li class="list-group-item"><a href="#" class="text-decoration-none"><i
+                              class="fas fa-satellite-dish"></i><span class="ms-2">Request for Quotation</span></a></li>
+                        <li class="list-group-item"><a href="#" class="text-decoration-none"><i
+                              class="fas fa-tasks"></i><span class="ms-2">Enquire & Manage Quotes</span></a></li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+          <div class="d-block d-sm-none">
+            <form class="d-flex px-0 py-1">
+              <input class="form-control shadow-none me-2" type="text" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
+
   <!-- Mega Menu -->
   <div class="mega-menu">
     <nav class="navbar-lg navbar-expand-lg navbar-light bg-light">
@@ -330,15 +331,15 @@
     </nav>
   </div>
   <!-- Banner -->
-  <div class="container">
+  <div class="container-fluid banner">
     <div class="owl-carousel owl-theme">
-      <div> <img class="img-fluid" src="image/banner-1.jpg" style="height: 300px;" alt=""> </div>
-      <div> <img class="img-fluid" src="image/banner-2.png" style="height: 300px;" alt=""> </div>
-      <div> <img class="img-fluid" src="image/banner-3.jpg" style="height: 300px;" alt=""> </div>
-      <div> <img class="img-fluid" src="image/banner-4.jpg" style="height: 300px;" alt=""> </div>
-      <div> <img class="img-fluid" src="image/banner-5.png" style="height: 300px;" alt=""> </div>
-      <div> <img class="img-fluid" src="image/banner-6.jpg" style="height: 300px;" alt=""> </div>
-      <div> <img class="img-fluid" src="image/banner-7.jpg" style="height: 300px;" alt=""> </div>
+      <div> <img class="img-fluid" src="image/banner-1.jpg" alt=""> </div>
+      <div> <img class="img-fluid" src="image/banner-2.png" alt=""> </div>
+      <div> <img class="img-fluid" src="image/banner-3.jpg" alt=""> </div>
+      <div> <img class="img-fluid" src="image/banner-4.jpg" alt=""> </div>
+      <div> <img class="img-fluid" src="image/banner-5.png" alt=""> </div>
+      <div> <img class="img-fluid" src="image/banner-6.jpg" alt=""> </div>
+      <div> <img class="img-fluid" src="image/banner-7.jpg" alt=""> </div>
     </div>
   </div>
   <!-- Trending Products -->
@@ -881,7 +882,6 @@
     $(document).ready(function () {
       $(".owl-carousel").owlCarousel({
         loop: true,
-        margin: 10,
         loop: true,
         mouseDrag: true,
         autoplay: true,
