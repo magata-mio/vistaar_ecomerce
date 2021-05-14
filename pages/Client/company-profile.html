@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Company Profile</title>
+    <style>
+        .nav-tabs .nav-link:focus,
+        .nav-tabs .nav-link.active {
+            background-color: seagreen;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <nav class="navbar navbar-light bg-light border-bottom border-2 border-success">
+        <div class="container">
+            <a class="navbar-brand py-0" href="#">
+                <img src="../../image/long logo.png" width="120" alt="">
+            </a>
+            <div class="btn-group">
+                <button class="btn btn-secondary dropdown-toggle shadow-none" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="../../image/admin.png" class="img-fluid rounded-circle" width="30" alt="">
+                    Hi, <span>Ritesh Rai</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+                    <li><a href="#" class="dropdown-item">Change Password</a></li>
+                    <li><a href="#" class="dropdown-item">Edit Profile</a></li>
+                    <li><a href="#" class="dropdown-item">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header End -->
+
+    <!-- Content Start -->
+    <div class="container-fluid dashboard py-3">
+        <div class="row">
+            <!-- Sidebar Content -->
+            <div class="col-2 h-100 shadow-sm py-3 sticky-top" style="top: 20px;">
+                <div class="mb-2 p-2 dashboard-profile border border-lg-1 rounded">
+                    <div class="d-flex align-items-center flex-column text-center flex-lg-row">
+                        <img src="../../image/admin.png" class="rounded-circle"
+                            style="width: 30px; height: 30px; border: 1px solid green;" alt="">
+                        <div class="ms-1 d-none d-lg-block profile-name">
+                            <a href="#" class="nav-link text-success ps-1">
+                                <h6 class="my-0">Ritesh Rai <i class="far fa-edit"></i></h6>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <div class="d-flex justify-content-between align-items-center text-center company pt-1">
+                            <div class="overflow-hidden text-lg-start company-name" style="width: 150px; height: 25px;">
+                                Bishal Traders & Gift Collection
+                            </div>
+                            <span class="d-none d-lg-block">5
+                                <img src="../../image/icon/start-filled.svg" alt="">
+                                <!-- <img src="../../image/icon/star-grey.svg" alt=""> -->
+                            </span>
+                        </div>
+                    </a>
+
+                </div>
+                <ul class="list-group dashboard-item">
+                    <a href="dashboard.html" class="text-decoration-none">
+                        <li class="list-group-item py-2 px-1">
+                            <div class="d-flex flex-column text-center text-lg-start flex-lg-row align-items-center">
+                                <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                Dashboard
+                            </div>
+                        </li>
+                    </a>
+                    <a href="company-profile.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            Company Profile
+                        </li>
+                    </a>
+                    <a href="lead_manager.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-comment-medical"></i>
+                            </div>
+                            Lead Manager <span class="d-none d-lg-block"> (295)</span>
+                        </li>
+                    </a>
+                    <a href="manage_product.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-luggage-cart"></i>
+                            </div>
+                            Manage Products
+                        </li>
+                    </a>
+                    <a href="buy_lead.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            Buy Leads <span>506</span>
+                        </li>
+                    </a>
+                    <a href="collect_payment.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-money-check-alt"></i>
+                            </div>
+                            Collect Payments
+                        </li>
+                    </a>
+                    <a href="catalog_view.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-cash-register"></i>
+                            </div>
+                            Your Catalog Views <span>18</span>
+                        </li>
+                    </a>
+                    <a href="photos&doc.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                            Photos & Docs
+                        </li>
+                    </a>
+                    <a href="bill&invoice.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-file-import"></i>
+                            </div>
+                            Bills & Invoice
+                        </li>
+                    </a>
+                    <a href="buyer_tool.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-toolbox"></i>
+                            </div>
+                            Buyers Tools <span>New</span>
+                        </li>
+                    </a>
+                    <a href="setting.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            Setting
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-10 bg-light">
+                <div class="container">
+                    <div class="card my-3 p-0">
+                        <div class="card-body">
+                            <nav>
+                                <div class="d-flex justify-content-between">
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <button class="nav-link active" id="nav-contact-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-contact" type="button" role="tab"
+                                            aria-controls="nav-contact" aria-selected="true">Contact
+                                            Details</button>
+                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-profile" type="button" role="tab"
+                                            aria-controls="nav-profile" aria-selected="false">Business Profile</button>
+                                        <button class="nav-link" id="nav-website-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-website" type="button" role="tab"
+                                            aria-controls="nav-contact" aria-selected="false">Website Pages</button>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button type="button"
+                                            class="btn border border-success shadow-none dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            More Option
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li><button class="dropdown-item" type="button">Action</button></li>
+                                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                                            <li><button class="dropdown-item" type="button">Something else here</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-contact" role="tabpanel"
+                                    aria-labelledby="nav-contact-tab">
+                                    <div class="card my-4">
+                                        <div class="card-body">
+                                            <h1 class="fs-6">Contact Information</h1>
+                                            <hr>
+                                            <div class="row">
+                                                <!-- Profile -->
+                                                <div class="col-md-4 order-md-last">
+                                                    <img class="img-fluid" src="../../image/admin.png" alt="">
+                                                    <div class="custom-file mt-3">
+                                                        <input id="" class="custom-file-input" type="file" name="">
+                                                    </div>
+                                                </div>
+                                                <!-- Information -->
+                                                <div class="col-md-8">
+                                                    <form action="">
+                                                        <table class="table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td valign="middle">Contact Person Name <span
+                                                                            class="text-danger">*</span></td>
+                                                                    <td><input type="text" name=""
+                                                                            class="form-control shadow-none" id=""></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td valign="middle">
+                                                                        <label for="my-input">Designation</label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <input id="my-input"
+                                                                            class="form-control shadow-none" type="text"
+                                                                            name="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td valign="middle">
+                                                                        <label for="my-input">Mobile no.</label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <input id="my-input"
+                                                                            class="form-control shadow-none" type="text"
+                                                                            name="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td valign="middle">
+                                                                        <label for="my-input">Phone no.</label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <input id="my-input"
+                                                                            class="form-control shadow-none" type="text"
+                                                                            name="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td valign="middle">
+                                                                        <label for="my-input">Email ID</label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <input id="my-input"
+                                                                            class="form-control shadow-none"
+                                                                            type="email" name="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td valign="middle">
+                                                                        <label for="my-input">Alternative Email
+                                                                            ID</label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <input id="my-input"
+                                                                            class="form-control shadow-none"
+                                                                            type="email" name="">
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h1 class="fs-6">Additional Contact Details</h1>
+                                                    <div class="card-footer">
+                                                        <form method="post" action="">
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label for="">Division</label>
+                                                                        <input id="" class="form-control shadow-none"
+                                                                            type="text" name="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label for="">Contact Person Name</label>
+                                                                        <input id="" class="form-control shadow-none"
+                                                                            type="text" name="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="form-group">
+                                                                        <label for="">Address</label>
+                                                                        <input id="" class="form-control shadow-none"
+                                                                            type="text" name="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label for="">Country</label>
+                                                                        <input id="" class="form-control shadow-none"
+                                                                            type="text" name="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label for="my-input">Mobile Number</label>
+                                                                        <div class="input-group flex-nowrap">
+                                                                            <span
+                                                                                class="input-group-text d-none d-md-block"
+                                                                                id="addon-wrapping">+977</span>
+                                                                            <input type="text"
+                                                                                class="form-control shadow-none"
+                                                                                placeholder="" aria-label="Username"
+                                                                                aria-describedby="addon-wrapping">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label for="">Landline Number</label>
+                                                                        <div class="input-group mb-3">
+                                                                            <span
+                                                                                class="input-group-text d-none d-md-block">025</span>
+                                                                            <span
+                                                                                class="input-group-text d-none d-md-block">STD
+                                                                                Code</span>
+                                                                            <input type="text"
+                                                                                class="form-control shadow-none"
+                                                                                aria-label="Dollar amount (with dot and two decimal places)">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label for="">Toll Free Number</label>
+                                                                        <input id="" class="form-control shadow-none"
+                                                                            type="text" name="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label for="">Email</label>
+                                                                        <input id="" class="form-control shadow-none"
+                                                                            type="text" name="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label for="">Fax Number</label>
+                                                                        <input id="" class="form-control shadow-none"
+                                                                            type="text" name="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <button type="submit"
+                                                                class="btn btn-primary mt-3">Save</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab">
+                                    <h1 class="fs-5">Business Profile</h1>
+                                </div>
+                                <div class="tab-pane fade" id="nav-website" role="tabpanel"
+                                    aria-labelledby="nav-website-tab">
+                                    <h1 class="fs-5">Website Pages Tab</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content End -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

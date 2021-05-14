@@ -11,25 +11,30 @@
     <!-- Font Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Owl carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.green.min.css">
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap"
         rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../css/index.css">
     <title>Vistaar</title>
+    <style>
+        body {
+            font-smooth: anitialize;
+        }
+    </style>
 </head>
 
-<body>
+<body class="">
     <!-- Header Start -->
     <!-- Navbar Top Fixed-->
     <div class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-success border-3">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img class="img-fluid" src="image/logo.png" width="40" alt="">
+                    <img class="img-fluid" src="../image/long logo.png" width="120" alt="">
                 </a>
                 <div class="search border rounded-pill d-none d-sm-block">
                     <form class="d-flex px-3 py-1">
@@ -74,7 +79,7 @@
                         <li class="nav-item">
 
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn border border-success p-sm-0 px-3 py-1 shadow-none"
+                            <button type="button" class="btn border border-success p-0 px-sm-0 px-2 shadow-none"
                                 data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <a class="nav-link" href="#">Sign In <i class="fas fa-sign-in-alt fs-5"></i></a>
                             </button>
@@ -153,19 +158,73 @@
     <div class="mega-menu">
         <nav class="navbar-lg navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <div class="d-flex justify-content-between align-items-center py-2">
-
+                <div class="d-flex justify-content-between align-items-center py-sm-0 py-2">
                     <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbars" aria-controls="navbars" aria-expanded="false"
                         aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="fas fa-th-large"></i>
                         <span>Category</span>
                     </button>
-                    <a href="#" class="btn btn-sm btn-success d-md-none">Post Your
-                        Requirement</a>
+                    <!-- <a href="#" class="btn btn-sm btn-success d-md-none"></a> -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-sm btn-success d-md-none" data-bs-toggle="modal"
+                        data-bs-target="#postRequireModal">
+                        Post Your Requirement
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="postRequireModal" tabindex="-1" aria-labelledby="postRequireModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="postRequireModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                    <p>Modal body text goes here.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbars">
-                    <a href="#" class="btn btn-outline-success btn-sm d-none d-md-block">Post Your Requirement</a>
+                    <!-- <a href="#" class="btn btn-outline-success btn-sm d-none d-md-block">Post Your Requirement</a> -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-success shadow-none btn-sm d-none d-md-block"
+                        data-bs-toggle="modal" data-bs-target="#postRequire_LgModal">
+                        Post Your Requirement
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="postRequire_LgModal" tabindex="-1"
+                        aria-labelledby="postRequire_LgModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="postRequire_LgModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                    <p>Modal body PK text goes here.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Link</a>
@@ -364,25 +423,31 @@
     <!-- Mega menu End -->
     <!-- Header End -->
 
+    <!-- Content start -->
+    <div class="content">
 
-
-
-
+    </div>
+    <!-- Content end -->
     <!-- Footer Start -->
-    <footer class="py-5 bg-light">
+    <footer class="py-5 bg-light mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h1 class="fs-4"><u>About Us</u></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ut maxime ipsa praesentium omnis
-                        nam
-                        sequi
-                        voluptate ad beatae, laudantium modi amet quaerat eius veritatis quas adipisci culpa dolor
-                        nobis.
-                    </p>
+                    <h1 class="fs-5"><u>About Us</u></h1>
+                    <div>
+                        <p class=" text-muted" style="font-weight: 400;">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Debitis ut
+                            maxime ipsa
+                            praesentium omnis
+                            nam
+                            sequi
+                            voluptate ad beatae, laudantium modi amet quaerat eius veritatis quas adipisci culpa dolor
+                            nobis.
+                        </p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <h1 class="fs-4"><u>Category</u></h1>
+                    <h1 class="fs-5"><u>Category</u></h1>
                     <ul class="list-unstyled">
                         <li><a href="" class="">Clothes</a></li>
                         <li><a href="">Wheel</a></li>
@@ -391,16 +456,19 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h1 class="fs-4"><u>Contact-us</u></h1>
+                    <h1 class="fs-5"><u>Contact-us</u></h1>
                     <div>
-                        <span><i class="fas fa-map-marker-alt"></i> <b class="text-muted">Address</b></span>
-                        <p class="text-muted">Dharan-9, Nepal, Sunsari</p>
+                        <span><i class="fas fa-map-marker-alt text-danger"></i> <b class="">Address</b></span>
+                        <p class="" style="font-weight: 400;">Dharan-9, Nepal, Sunsari</p>
                     </div>
                     <div>
-                        <p class="mb-0"><i class="fas fa-phone-square-alt"></i> Phone: +977-9804090266</p>
-                        <p class=""><i class="fas fa-envelope-square"></i> Email: paritesh2020@gmail.com</p>
+                        <p class="mb-0" style="font-weight: 400;"><i class="fas fa-phone-square-alt text-danger"></i>
+                            Phone:
+                            +977-9804090266</p>
+                        <p class="" style="font-weight: 400;"><i class="fas fa-envelope-square text-danger"></i> Email:
+                            paritesh2020@gmail.com</p>
                     </div>
-                    <div>
+                    <div style="font-weight: 400;">
                         <i class="fab fa-facebook-square"></i>
                         <i class="fab fa-twitter-square"></i>
                         <i class="fab fa-instagram-square"></i>
@@ -415,9 +483,9 @@
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="js/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function () {
             $(".owl-carousel").owlCarousel({

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard</title>
+
+</head>
+
+<body>
+    <!-- Header Start -->
+    <nav class="navbar navbar-light bg-light border-bottom border-2 border-success">
+        <div class="container">
+            <a class="navbar-brand py-0" href="../index.html">
+                <img src="../../image/long logo.png" width="120" alt="">
+            </a>
+            <div class="btn-group">
+                <button class="btn btn-secondary dropdown-toggle shadow-none" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="../../image/admin.png" class="img-fluid rounded-circle" width="30" alt="">
+                    Hi, <span>Ritesh Rai</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+                    <li><a href="#" class="dropdown-item">Change Password</a></li>
+                    <li><a href="#" class="dropdown-item">Edit Profile</a></li>
+                    <li><a href="#" class="dropdown-item">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header End -->
+
+    <!-- Content Start -->
+    <div class="container-fluid dashboard py-3">
+        <div class="row">
+            <!-- Sidebar Nav -->
+            <div class="col-2 h-100 shadow-sm py-3 sticky-top" style="top: 20px;">
+                <div class="mb-2 p-2 dashboard-profile border border-lg-1 rounded">
+                    <div class="d-flex align-items-center flex-column text-center flex-lg-row">
+                        <img src="../../image/admin.png" class="rounded-circle"
+                            style="width: 30px; height: 30px; border: 1px solid green;" alt="">
+                        <div class="ms-1 d-none d-lg-block profile-name">
+                            <a href="#" class="nav-link text-success ps-1">
+                                <h6 class="my-0">Ritesh Rai <i class="far fa-edit"></i></h6>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <div class="d-flex justify-content-between align-items-center text-center company pt-1">
+                            <div class="overflow-hidden text-lg-start company-name" style="width: 150px; height: 25px;">
+                                Bishal Traders & Gift Collection
+                            </div>
+                            <span class="d-none d-lg-block">5
+                                <img src="../../image/icon/start-filled.svg" alt="">
+                                <!-- <img src="../../image/icon/star-grey.svg" alt=""> -->
+                            </span>
+                        </div>
+                    </a>
+
+                </div>
+                <ul class="list-group dashboard-item">
+                    <a href="dashboard.html" class="text-decoration-none">
+                        <li class="list-group-item py-2 px-1">
+                            <div class="d-flex flex-column text-center text-lg-start flex-lg-row align-items-center">
+                                <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                Dashboard
+                            </div>
+                        </li>
+                    </a>
+                    <a href="company-profile.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            Company Profile
+                        </li>
+                    </a>
+                    <a href="lead_manager.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-comment-medical"></i>
+                            </div>
+                            Lead Manager <span class="d-none d-lg-block"> (295)</span>
+                        </li>
+                    </a>
+                    <a href="manage_product.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-luggage-cart"></i>
+                            </div>
+                            Manage Products
+                        </li>
+                    </a>
+                    <a href="buy_lead.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            Buy Leads <span>506</span>
+                        </li>
+                    </a>
+                    <a href="collect_payment.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-money-check-alt"></i>
+                            </div>
+                            Collect Payments
+                        </li>
+                    </a>
+                    <a href="catalog_view.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-cash-register"></i>
+                            </div>
+                            Your Catalog Views <span>18</span>
+                        </li>
+                    </a>
+                    <a href="photos&doc.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                            Photos & Docs
+                        </li>
+                    </a>
+                    <a href="bill&invoice.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-file-import"></i>
+                            </div>
+                            Bills & Invoice
+                        </li>
+                    </a>
+                    <a href="buyer_tool.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-toolbox"></i>
+                            </div>
+                            Buyers Tools <span>New</span>
+                        </li>
+                    </a>
+                    <a href="setting.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            Setting
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-10 bg-light">
+                <div class="container">
+                    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, molestias in molestiae
+                        minus
+                        illo unde tempore ut necessitatibus accusantium aliquid dicta harum at corrupti id? Maiores
+                        corrupti
+                        quos cum ducimus sunt et reiciendis esse. Corporis hic ipsa, similique quaerat repellendus
+                        fugiat
+                        voluptatibus atque sequi in amet dignissimos eum adipisci voluptas minima repudiandae vero sit
+                        tempora quo maxime laboriosam accusantium vel nobis commodi? Ex itaque expedita, rerum, quo
+                        tenetur
+                        vero saepe quis voluptate ea aperiam veniam magnam nam, eum ratione dicta asperiores architecto.
+                        Accusamus excepturi quis consectetur aut provident dicta alias vitae, saepe ad aliquid vel modi
+                        reprehenderit quos sed ab!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content End -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
