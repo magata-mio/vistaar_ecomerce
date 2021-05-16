@@ -11,7 +11,7 @@
     <!-- Fontawesome Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Dashboard</title>
+    <title>Manage Product</title>
 
 </head>
 
@@ -169,13 +169,15 @@
                     </a>
                 </ul>
             </div>
-            <div class="col-10 bg-light">
+            <!-- Content Start  -->
+            <div class="col-10 bg-light py-3">
                 <div class="container">
                     <div class="notify">
 
                     </div>
                     <div class="card">
                         <div class="card-body">
+                            <!-- Add Product Start  -->
                             <div class=" d-md-flex align-items-center justify-content-end">
                                 <div class="m-1">
                                     <a href="#" class="btn btn-success shadow-none">+ Add Product</a>
@@ -199,6 +201,7 @@
                                     </ul>
                                 </div>
                             </div>
+                            <!-- Nav Start -->
                             <div class="d-flex m-1">
                                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                     <li class="nav-item" role="presentation">
@@ -217,10 +220,11 @@
 
 
                             </div>
-
+                            <!-- Tab Content -->
                             <div class="tab-content" id="pills-tabContent">
                                 <div class="tab-pane fade show active" id="pills-active" role="tabpanel"
                                     aria-labelledby="pills-active-tab">
+                                    <!-- Filter Content -->
                                     <div class="filter">
                                         <span>Filter By :</span>
                                         <input list="list" class="border-0 border-bottom" style="outline: none;"
@@ -233,7 +237,121 @@
                                     </div>
                                     <!-- COntent Start -->
                                     <div class="my-3">
-                                        <div class="row">
+                                        <!-- Single Content Start  -->
+                                        <div class="row border-bottom">
+                                            <div class="col-md-4">
+                                                <!-- Slider Start -->
+                                                <div class="slider">
+                                                    <div id="carouselExampleControls" class="carousel slide"
+                                                        data-bs-ride="carousel">
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <img src="../../image/product/product-1.png"
+                                                                    class="d-block w-100" style="height: 220px;"
+                                                                    alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="../../image/product/product-2.png"
+                                                                    class="d-block w-100" style="height: 220px;"
+                                                                    alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="../../image/product/product-4.png"
+                                                                    class="d-block w-100" style="height: 220px;"
+                                                                    alt="...">
+                                                            </div>
+                                                        </div>
+                                                        <button class="carousel-control-prev" type="button"
+                                                            data-bs-target="#carouselExampleControls"
+                                                            data-bs-slide="prev">
+                                                            <span class="carousel-control-prev-icon"
+                                                                aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Previous</span>
+                                                        </button>
+                                                        <button class="carousel-control-next" type="button"
+                                                            data-bs-target="#carouselExampleControls"
+                                                            data-bs-slide="next">
+                                                            <span class="carousel-control-next-icon"
+                                                                aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Next</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 py-3">
+                                                <div class="bg-light px-3 py-1">
+                                                    <h1 class="fs-6 text-muted">
+                                                        Iron
+                                                        <a href="" class="text-dark">Sail TMT Bars, </a>
+                                                        Grade : Fe 500
+                                                    </h1>
+                                                    <a class="text-decoration-none text-dark" href="">Sail SEQR tmt
+                                                        available in all sizes</a>
+                                                </div>
+                                                <div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <p class="text-muted">Category</p>
+                                                            <a href="#"
+                                                                class="text-decoration-none text-dark btn btn-sm bg-light">
+                                                                Sail TMT Bars
+                                                            </a>
+                                                            <a href="#"
+                                                                class="text-decoration-none text-dark btn btn-sm bg-light">
+                                                                TMT Bars
+                                                            </a>
+                                                            <div class="mt-3">
+                                                                <p class="text-muted">Group</p>
+                                                                <a href="#"
+                                                                    class="text-decoration-none text-dark btn btn-sm bg-light">
+                                                                    Govin TMT Bars
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <p class="text-muted">
+                                                                Specification/ Addtionnal Details
+                                                            </p>
+                                                            <ol class="list-group list-group-numbered list-group-flush">
+                                                                <li
+                                                                    class="list-group-item d-flex justify-content-between align-items-start">
+                                                                    <div class="ms-2 me-auto">
+                                                                        <div class="fw-bold">Type:</div>
+
+                                                                    </div>
+                                                                    <span class="badge bg-primary rounded-pill">TMT
+                                                                        Coil</span>
+                                                                </li>
+                                                                <li
+                                                                    class="list-group-item d-flex justify-content-between align-items-start">
+                                                                    <div class="ms-2 me-auto">
+                                                                        <div class="fw-bold">Grade</div>
+
+                                                                    </div>
+                                                                    <span class="badge bg-primary rounded-pill">Fe
+                                                                        500</span>
+                                                                </li>
+                                                                <li
+                                                                    class="list-group-item d-flex justify-content-between align-items-start">
+                                                                    <div class="ms-2 me-auto">
+                                                                        <div class="fw-bold">Meterial </div>
+
+                                                                    </div>
+                                                                    <span
+                                                                        class="badge bg-primary rounded-pill">Iron</span>
+                                                                </li>
+                                                                <a href="#" class="text-decoration-none"> + Add
+                                                                    More</a>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-3">
+                                        <!-- Single Content Start -->
+                                        <div class="row border-bottom">
                                             <div class="col-md-4">
                                                 <div class="slider">
                                                     <div id="carouselExampleControls" class="carousel slide"
@@ -344,7 +462,8 @@
                                         </div>
                                     </div>
                                     <div class="my-3">
-                                        <div class="row">
+                                        <!-- Single Content Start -->
+                                        <div class="row border-bottom">
                                             <div class="col-md-4">
                                                 <div class="slider">
                                                     <div id="carouselExampleControls" class="carousel slide"
@@ -455,118 +574,8 @@
                                         </div>
                                     </div>
                                     <div class="my-3">
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="slider">
-                                                    <div id="carouselExampleControls" class="carousel slide"
-                                                        data-bs-ride="carousel">
-                                                        <div class="carousel-inner">
-                                                            <div class="carousel-item active">
-                                                                <img src="../../image/product/product-1.png"
-                                                                    class="d-block w-100" style="height: 220px;"
-                                                                    alt="...">
-                                                            </div>
-                                                            <div class="carousel-item">
-                                                                <img src="../../image/product/product-2.png"
-                                                                    class="d-block w-100" style="height: 220px;"
-                                                                    alt="...">
-                                                            </div>
-                                                            <div class="carousel-item">
-                                                                <img src="../../image/product/product-4.png"
-                                                                    class="d-block w-100" style="height: 220px;"
-                                                                    alt="...">
-                                                            </div>
-                                                        </div>
-                                                        <button class="carousel-control-prev" type="button"
-                                                            data-bs-target="#carouselExampleControls"
-                                                            data-bs-slide="prev">
-                                                            <span class="carousel-control-prev-icon"
-                                                                aria-hidden="true"></span>
-                                                            <span class="visually-hidden">Previous</span>
-                                                        </button>
-                                                        <button class="carousel-control-next" type="button"
-                                                            data-bs-target="#carouselExampleControls"
-                                                            data-bs-slide="next">
-                                                            <span class="carousel-control-next-icon"
-                                                                aria-hidden="true"></span>
-                                                            <span class="visually-hidden">Next</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-8 py-3">
-                                                <div class="bg-light px-3 py-1">
-                                                    <h1 class="fs-6 text-muted">
-                                                        Iron
-                                                        <a href="" class="text-dark">Sail TMT Bars, </a>
-                                                        Grade : Fe 500
-                                                    </h1>
-                                                    <a class="text-decoration-none text-dark" href="">Sail SEQR tmt
-                                                        available in all sizes</a>
-                                                </div>
-                                                <div>
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <p class="text-muted">Category</p>
-                                                            <a href="#"
-                                                                class="text-decoration-none text-dark btn btn-sm bg-light">
-                                                                Sail TMT Bars
-                                                            </a>
-                                                            <a href="#"
-                                                                class="text-decoration-none text-dark btn btn-sm bg-light">
-                                                                TMT Bars
-                                                            </a>
-                                                            <div class="mt-3">
-                                                                <p class="text-muted">Group</p>
-                                                                <a href="#"
-                                                                    class="text-decoration-none text-dark btn btn-sm bg-light">
-                                                                    Govin TMT Bars
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <p class="text-muted">
-                                                                Specification/ Addtionnal Details
-                                                            </p>
-                                                            <ol class="list-group list-group-numbered list-group-flush">
-                                                                <li
-                                                                    class="list-group-item d-flex justify-content-between align-items-start">
-                                                                    <div class="ms-2 me-auto">
-                                                                        <div class="fw-bold">Type:</div>
-
-                                                                    </div>
-                                                                    <span class="badge bg-primary rounded-pill">TMT
-                                                                        Coil</span>
-                                                                </li>
-                                                                <li
-                                                                    class="list-group-item d-flex justify-content-between align-items-start">
-                                                                    <div class="ms-2 me-auto">
-                                                                        <div class="fw-bold">Grade</div>
-
-                                                                    </div>
-                                                                    <span class="badge bg-primary rounded-pill">Fe
-                                                                        500</span>
-                                                                </li>
-                                                                <li
-                                                                    class="list-group-item d-flex justify-content-between align-items-start">
-                                                                    <div class="ms-2 me-auto">
-                                                                        <div class="fw-bold">Meterial </div>
-
-                                                                    </div>
-                                                                    <span
-                                                                        class="badge bg-primary rounded-pill">Iron</span>
-                                                                </li>
-                                                                <a href="#" class="text-decoration-none"> + Add
-                                                                    More</a>
-                                                            </ol>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="my-3">
-                                        <div class="row">
+                                        <!-- Single Content Start -->
+                                        <div class="row border-bottom">
                                             <div class="col-md-4">
                                                 <div class="slider">
                                                     <div id="carouselExampleControls" class="carousel slide"
@@ -679,7 +688,9 @@
                                     <!-- Content End -->
                                 </div>
                                 <div class="tab-pane fade" id="pills-inactive" role="tabpanel"
-                                    aria-labelledby="pills-inactive-tab">...</div>
+                                    aria-labelledby="pills-inactive-tab">
+                                    <p class="text-muted">Not Available</p>
+                                </div>
                             </div>
                         </div>
                     </div>

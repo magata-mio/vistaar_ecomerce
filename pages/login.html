@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Log in</title>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="header-top border-3 border-bottom border-success">
+        <nav class="navbar  navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid" src="../image/long logo.png" width="120" alt="">
+                </a>
+                <!-- <a href="login.html" class="btn btn-primary shadow-none">Log in</a> -->
+                <!-- Button trigger modal
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        Login
+                    </button>
+                    Modal
+                    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="loginModalLabel">
+                                        Welcome,
+                                    </h5>
+                                    <img class="img-fluid" src="../image/logo.png" width="50" alt="">
+                                    <div class="ms-2">
+                                        <h5 class="mb-0">Welcome,</h5>
+                                        <p class="mb-0">Login for a seamless experience</p>
+                                    </div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <form action="" method="post">
+                                    <div class="modal-body">
+                                        <div class="form-group mb-3">
+                                            <input id="name" class="form-control shadow-none" type="text" name=""
+                                                placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="" class="form-control shadow-none" type="text" name=""
+                                                placeholder="Mobile Number">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">May be
+                                            later</button>
+                                        <button type="button" class="btn btn-primary">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div> -->
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link rounded-pill mx-1 fw-bold active" id="pills-login-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-login" type="button" role="tab"
+                                    aria-controls="pills-login" aria-selected="true">Log in</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link rounded-pill mx-1 fw-bold" id="pills-signup-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-signup" type="button" role="tab"
+                                    aria-controls="pills-signup" aria-selected="false">Sign Up</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-login" role="tabpanel"
+                                aria-labelledby="pills-login-tab">
+                                <div class="d-sm-flex align-items-center justify-content-center">
+                                    <div class="img">
+                                        <img src="../image/long logo.png" class="img-fluid" style="object-fit: cover;"
+                                            width="180" alt="">
+                                    </div>
+                                    <div class="highlight ps-sm-3 pt-sm-4">
+                                        <h1 class="fs-5 mb-0">Wellcome,</h1>
+                                        <p>Login for a seamless experience</p>
+                                    </div>
+                                </div>
+                                <form action="">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control shadow-none" id="floatingName"
+                                            placeholder="name@example.com">
+                                        <label for="floatingName">Name</label>
+                                    </div>
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control shadow-none" id="floatingnumber"
+                                            placeholder="Password">
+                                        <label for="floatingnumber">Mobile Number</label>
+                                    </div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-success mt-3" data-bs-toggle="modal"
+                                        data-bs-target="#LoginModal">
+                                        <i class="far fa-paper-plane"></i>
+                                        Log in
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="LoginModal" tabindex="-1"
+                                        aria-labelledby="LoginModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <!-- Confirm -->
+                                                    <div class="my-3">
+                                                        <form action="">
+                                                            <p>
+                                                                <span>9804090266 </span>
+                                                                <a href="#" class="text-decoration-none"><i
+                                                                        class="fas fa-pen"></i></a>
+                                                            </p>
+                                                            <input type="text" name="" class="form-control shadow-none"
+                                                                placeholder="Put your OTP Number" id="">
+                                                        </form>
+                                                        <div class="d-flex justify-content-between mt-3">
+                                                            <a href="#" class="text-decoration-none text-muted">Didn't
+                                                                receive the
+                                                                OTP</a>
+
+                                                            <a href="#" class="text-decoration-none text-primary">Resend
+                                                                OTP</a>
+                                                        </div>
+                                                        <div class="text-end mt-2">
+                                                            <button type="submit"
+                                                                class="btn btn-primary rounded-circle">
+                                                                <i class="fas fa-arrow-right"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-signup" role="tabpanel"
+                                aria-labelledby="pills-signup-tab">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <form action="">
+                                            <div class="form-floating mb-3">
+                                                <input type="text" class="form-control shadow-none" id="floatingName"
+                                                    placeholder="name@example.com">
+                                                <label for="floatingName">Name</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="text" class="form-control shadow-none" id="floatingPhone"
+                                                    placeholder="name@example.com">
+                                                <label for="floatingPhone">Phone</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="email" class="form-control shadow-none" id="floatingEmail"
+                                                    placeholder="name@example.com">
+                                                <label for="floatingEmail">Email</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="password" class="form-control shadow-none"
+                                                    id="floatingPassword" placeholder="name@example.com">
+                                                <label for="floatingPassword">Password</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="password" class="form-control shadow-none"
+                                                    id="floatingPassword" placeholder="name@example.com">
+                                                <label for="floatingPassword">Confirm Password</label>
+                                            </div>
+                                            <button type="button" class="btn btn-success mt-3">
+                                                <i class="far fa-paper-plane"></i>
+                                                Sign Up
+                                            </button>
+                                            <hr>
+
+                                            <div class="text-center">
+                                                <a href="#" class="btn btn-primary">
+                                                    <i class="fab fa-facebook-square"></i>
+                                                    <span>Sign up From Facebook</span>
+                                                </a>
+                                                <a href="#" class="btn btn-danger">
+                                                    <i class="fab fa-google-plus-square"></i>
+                                                    <span>Sign up From Gmail</span>
+                                                </a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
