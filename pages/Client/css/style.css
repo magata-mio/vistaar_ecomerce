@@ -12,7 +12,12 @@
     border-left: 1px solid seagreen;
     background: whitesmoke;
 }
-
+.overflow-x {
+    max-width: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
 @media only screen and (max-width:1024px) {
     .col-2 {
         padding: 2px 5px;
