@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Setting</title>
+
+</head>
+
+<body>
+    <!-- Header Start -->
+    <nav class="navbar navbar-light bg-light border-bottom border-2 border-success">
+        <div class="container">
+            <a class="navbar-brand py-0" href="../index.html">
+                <img src="../../image/long logo.png" width="120" alt="">
+            </a>
+            <div class="btn-group">
+                <button class="btn btn-secondary dropdown-toggle shadow-none" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="../../image/admin.png" class="img-fluid rounded-circle" width="30" alt="">
+                    Hi, <span>Ritesh Rai</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+                    <li><a href="#" class="dropdown-item">Change Password</a></li>
+                    <li><a href="#" class="dropdown-item">Edit Profile</a></li>
+                    <li><a href="#" class="dropdown-item">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header End -->
+
+    <!-- Content Start -->
+    <div class="container-fluid dashboard py-3">
+        <div class="row">
+            <!-- Sidebar Nav -->
+            <div class="col-2 h-100 shadow-sm py-3 sticky-top" style="top: 20px;">
+                <div class="mb-2 p-2 dashboard-profile border border-lg-1 rounded">
+                    <div class="d-flex align-items-center flex-column text-center flex-lg-row">
+                        <img src="../../image/admin.png" class="rounded-circle"
+                            style="width: 30px; height: 30px; border: 1px solid green;" alt="">
+                        <div class="ms-1 d-none d-lg-block profile-name">
+                            <a href="#" class="nav-link text-success ps-1">
+                                <h6 class="my-0">Ritesh Rai <i class="far fa-edit"></i></h6>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <div class="d-flex justify-content-between align-items-center text-center company pt-1">
+                            <div class="overflow-hidden text-lg-start company-name" style="width: 150px; height: 25px;">
+                                Bishal Traders & Gift Collection
+                            </div>
+                            <span class="d-none d-lg-block">5
+                                <img src="../../image/icon/start-filled.svg" alt="">
+                                <!-- <img src="../../image/icon/star-grey.svg" alt=""> -->
+                            </span>
+                        </div>
+                    </a>
+
+                </div>
+                <ul class="list-group dashboard-item">
+                    <a href="dashboard.html" class="text-decoration-none">
+                        <li class="list-group-item py-2 px-1">
+                            <div class="d-flex flex-column text-center text-lg-start flex-lg-row align-items-center">
+                                <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                Dashboard
+                            </div>
+                        </li>
+                    </a>
+                    <a href="company-profile.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            Company Profile
+                        </li>
+                    </a>
+                    <a href="lead_manager.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-comment-medical"></i>
+                            </div>
+                            Lead Manager <span class="d-none d-lg-block"> (295)</span>
+                        </li>
+                    </a>
+                    <a href="manage_product.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-luggage-cart"></i>
+                            </div>
+                            Manage Products
+                        </li>
+                    </a>
+                    <a href="buy_lead.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            Buy Leads <span>506</span>
+                        </li>
+                    </a>
+                    <a href="collect_payment.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-money-check-alt"></i>
+                            </div>
+                            Collect Payments
+                        </li>
+                    </a>
+                    <a href="catalog_view.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-cash-register"></i>
+                            </div>
+                            Your Catalog Views <span>18</span>
+                        </li>
+                    </a>
+                    <a href="photos&doc.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                            Photos & Docs
+                        </li>
+                    </a>
+                    <a href="bill&invoice.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-file-import"></i>
+                            </div>
+                            Bills & Invoice
+                        </li>
+                    </a>
+                    <a href="buyer_tool.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-toolbox"></i>
+                            </div>
+                            Buyers Tools <span>New</span>
+                        </li>
+                    </a>
+                    <a href="setting.html" class="text-decoration-none">
+                        <li
+                            class="list-group-item py-2 px-1 d-flex align-items-center flex-column text-center text-lg-start flex-lg-row">
+                            <div class="d-flex justify-content-center me-lg-2" style="width: 25px;">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            Setting
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-10 bg-light">
+                <div class="container py-3 px-0">
+                    <table class="table-responsive w-100">
+                        <tr class="bg-white">
+                            <td>
+                                <div class="text-center mx-1 flex-fill pt-3">
+                                    <p class="fw-bold mb-0">Notification Settings</p>
+                                    <small><b>Manage Your Setting for important Alerts</b></small>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="text-center mx-1 flex-fill">
+                                    <div class="fw-bold border-bottom">Email</div>
+                                    <div class="row">
+                                        <div class="col-6 text-center">
+                                            <p class="mb-0"><strong>Primary</strong></p>
+
+                                            <em>exampleuser@gmail.com</em>
+                                        </div>
+                                        <div class="col-6 text-center">
+                                            <p class="mb-0"><strong>Secondary</strong></p>
+                                            <em>exampleuser@gmail.com</em>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="text-center mx-1 flex-fill">
+                                    <div class="fw-bold border-bottom">SMS</div>
+                                    <div class="row">
+                                        <div class="col-6 text-center">
+                                            <p class="mb-0"><strong>Primary</strong></p>
+
+                                            <em>9804090266</em>
+                                        </div>
+                                        <div class="col-6 text-center">
+                                            <p class="mb-0"><strong>Secondary</strong></p>
+                                            <em>-64651641</em>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="" style="width: 150px;">
+                                <div class="text-center mx-1 flex-fill">
+                                    <div class="fw-bold border-bottom">App</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Content sTART -->
+                        <tr>
+                            <td colspan="4">
+                                <h1 class="fs-5">Buy Leads / Tender</h1>
+                            </td>
+                        </tr>
+                        <!-- Setting -->
+                        <tr class="bg-white border-bottom">
+                            <td>
+                                <div class="text-start mx-1 flex-fill pt-3">
+                                    <p class="fw-bold mb-0">Set Buy Leads Alert Frequency </p>
+                                    <small><i class="text-muted">Frequency of Buyleads alert sent to you on your Primary
+                                            Email.</i></small>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="text-center mx-1 pt-3 flex-fill">
+                                    <div class="row">
+                                        <div class="col-6 text-center">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                2 Hour
+                                            </label>
+                                        </div>
+                                        <div class="col-6 text-center">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                4 Hour
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="text-center mx-1 pt-3 flex-fill">
+                                    <div class="row">
+                                        <div class="col-6 text-center">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                24 Hour
+                                            </label>
+                                        </div>
+                                        <div class="col-6 text-center">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                48 Hour
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <!--  -->
+                        <tr class="bg-white border-bottom">
+                            <td>
+                                <div class="text-start mx-1 flex-fill pt-3">
+                                    <p class="fw-bold mb-0">Set Buy Leads Alert Frequency </p>
+                                    <small><i class="text-muted">Frequency of Buyleads alert sent to you on your Primary
+                                            Email.</i></small>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="">
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ---
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="flexRadioDefault1">
+
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ----
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="col-12 text-center">
+                                    <input class="form-check-input" type="checkbox" name="" id="flexRadioDefault1">
+
+                                </div>
+                            </td>
+                        </tr>
+                        <!--  -->
+                        <tr class="bg-white border-bottom">
+                            <td>
+                                <div class="text-start mx-1 flex-fill pt-3">
+                                    <p class="fw-bold mb-0">Latest Trenders </p>
+                                    <small><i class="text-muted">Get notified on latest tenders for you.</i></small>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="">
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ---
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="flexRadioDefault1">
+
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ----
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="col-12 text-center">
+                                    ---
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- proomotion Title start -->
+                        <tr>
+                            <td colspan="4">
+                                <h1 class="fs-4">Promotional Communication</h1>
+                            </td>
+                        </tr>
+                        <!--  -->
+                        <tr class="bg-white border-bottom">
+                            <td>
+                                <div class="text-start mx-1 flex-fill pt-3">
+                                    <p class="fw-bold mb-0">India Mart new offerings </p>
+                                    <small><i class="text-muted">Get notified on latest tenders for you.</i></small>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="">
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ---
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="flexRadioDefault1">
+
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ----
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="col-12 text-center">
+                                    ---
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-bottom">
+                            <td>
+                                <div class="text-start mx-1 flex-fill pt-3">
+                                    <p class="fw-bold mb-0">Third Party Promotional Offers </p>
+                                    <small><i class="text-muted">Get notified on latest tenders for you.</i></small>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="">
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ---
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="flexRadioDefault1">
+
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ----
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="col-12 text-center">
+                                    ---
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-bottom">
+                            <td>
+                                <div class="text-start mx-1 flex-fill pt-3">
+                                    <p class="fw-bold mb-0">Business Serveys </p>
+                                    <small><i class="text-muted">Get notified on latest tenders for you.</i></small>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="">
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ---
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="flexRadioDefault1">
+
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ----
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="col-12 text-center">
+                                    ---
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Title Start  -->
+                        <tr>
+                            <td colspan="4">
+                                <h1 class="fs-4">Service Message</h1>
+                            </td>
+                        </tr>
+                        <!--  -->
+                        <tr class="bg-white border-bottom">
+                            <td>
+                                <div class="text-start mx-1 flex-fill pt-3">
+                                    <p class="fw-bold mb-0">Service 1 </p>
+                                    <small><i class="text-muted">Get notified on latest tenders for you.</i></small>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="">
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ---
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="flexRadioDefault1">
+
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ----
+                                    </div>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr class="bg-white border-bottom">
+                            <td>
+                                <div class="text-start mx-1 flex-fill pt-3">
+                                    <p class="fw-bold mb-0">Third Party Promotional Offers </p>
+                                    <small><i class="text-muted">Get notified on latest tenders for you.</i></small>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="">
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ---
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="flexRadioDefault1">
+
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ----
+                                    </div>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr class="bg-white border-bottom">
+                            <td>
+                                <div class="text-start mx-1 flex-fill pt-3">
+                                    <p class="fw-bold mb-0">Business Serveys </p>
+                                    <small><i class="text-muted">Get notified on latest tenders for you.</i></small>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="">
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ---
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <input class="form-check-input" type="checkbox" name="" id="flexRadioDefault1">
+
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        ----
+                                    </div>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content End -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
