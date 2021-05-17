@@ -108,50 +108,14 @@
                                             placeholder="Password">
                                         <label for="floatingnumber">Mobile Number</label>
                                     </div>
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-success mt-3" data-bs-toggle="modal"
-                                        data-bs-target="#LoginModal">
+                                    <button type="submit" class="btn btn-success mt-3">
                                         <i class="far fa-paper-plane"></i>
                                         Log in
                                     </button>
-
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="LoginModal" tabindex="-1"
-                                        aria-labelledby="LoginModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered">
-                                            <div class="modal-content">
-                                                <div class="modal-body">
-                                                    <!-- Confirm -->
-                                                    <div class="my-3">
-                                                        <form action="">
-                                                            <p>
-                                                                <span>9804090266 </span>
-                                                                <a href="#" class="text-decoration-none"><i
-                                                                        class="fas fa-pen"></i></a>
-                                                            </p>
-                                                            <input type="text" name="" class="form-control shadow-none"
-                                                                placeholder="Put your OTP Number" id="">
-                                                        </form>
-                                                        <div class="d-flex justify-content-between mt-3">
-                                                            <a href="#" class="text-decoration-none text-muted">Didn't
-                                                                receive the
-                                                                OTP</a>
-
-                                                            <a href="#" class="text-decoration-none text-primary">Resend
-                                                                OTP</a>
-                                                        </div>
-                                                        <div class="text-end mt-2">
-                                                            <button type="submit"
-                                                                class="btn btn-primary rounded-circle">
-                                                                <i class="fas fa-arrow-right"></i>
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </form>
+                                <div class="mt-3">
+                                    <a href="#" class="text-decoration-none text-danger">Forgot Password</a>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="pills-signup" role="tabpanel"
                                 aria-labelledby="pills-signup-tab">
@@ -183,10 +147,51 @@
                                                     id="floatingPassword" placeholder="name@example.com">
                                                 <label for="floatingPassword">Confirm Password</label>
                                             </div>
-                                            <button type="button" class="btn btn-success mt-3">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-success shadow-none mt-3"
+                                                data-bs-toggle="modal" data-bs-target="#SignUpModal">
                                                 <i class="far fa-paper-plane"></i>
                                                 Sign Up
                                             </button>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="SignUpModal" tabindex="-1"
+                                                aria-labelledby="SignUpModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <!-- Confirm -->
+                                                            <div class="my-3">
+                                                                <form action="">
+                                                                    <p>
+                                                                        <span>9804090266 </span>
+                                                                        <a href="#" class="text-decoration-none"><i
+                                                                                class="fas fa-pen"></i></a>
+                                                                    </p>
+                                                                    <input type="text" name=""
+                                                                        class="form-control shadow-none"
+                                                                        placeholder="Put your OTP Number" id="">
+                                                                </form>
+                                                                <div class="d-flex justify-content-between mt-3">
+                                                                    <a href="#"
+                                                                        class="text-decoration-none text-muted">Didn't
+                                                                        receive the
+                                                                        OTP</a>
+
+                                                                    <a href="#"
+                                                                        class="text-decoration-none text-primary">Resend
+                                                                        OTP</a>
+                                                                </div>
+                                                                <div class="text-end mt-2">
+                                                                    <button type="submit"
+                                                                        class="btn btn-primary rounded-circle">
+                                                                        <i class="fas fa-arrow-right"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <hr>
 
                                             <div class="text-center">
