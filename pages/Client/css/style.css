@@ -12,6 +12,15 @@
     border-left: 1px solid seagreen;
     background: whitesmoke;
 }
+/* Chat Style */
+.dashboard .custom_chat .nav {
+  width: 400px;
+  flex-wrap: nowrap;
+}
+.dashboard .custom_chat .nav .nav-link.active {
+  background-color: #ddd;
+  color: black;
+}
 .overflow-x {
     max-width: 100%;
     overflow-x: auto;
@@ -66,6 +75,9 @@
     .dashboard .company-name {
         width: 100%;
     }
+    .dashboard .custom_chat .nav {
+    width: auto;
+  }
 }
 @media only screen and (max-width:300px) {
     .dashboard .dashboard-item a {
