@@ -7,7 +7,8 @@ body {
   border: none;
 }
 
-.search form input, .search form select {
+.search form input,
+.search form select {
   background-color: transparent;
   border: none;
   border-radius: 0;
@@ -76,13 +77,17 @@ body {
   padding: 15px;
 }
 
-.mega-menu .menu-area .mega-area .dropdown-item, .mega-menu .menu-area .mega-area a {
+.mega-menu .menu-area .mega-area .dropdown-item,
+.mega-menu .menu-area .mega-area a {
   padding: 3px 0;
   font-size: 14px;
   font-weight: 300;
 }
 
-.mega-menu .menu-area .mega-area .dropdown-item :hover, .mega-menu .menu-area .mega-area .dropdown-item :focus, .mega-menu .menu-area .mega-area a :hover, .mega-menu .menu-area .mega-area a :focus {
+.mega-menu .menu-area .mega-area .dropdown-item :hover,
+.mega-menu .menu-area .mega-area .dropdown-item :focus,
+.mega-menu .menu-area .mega-area a :hover,
+.mega-menu .menu-area .mega-area a :focus {
   color: seagreen;
   background-color: transparent;
 }
@@ -95,48 +100,69 @@ body {
   height: 90px;
 }
 
-.Recomanded .card {
+.Recomanded .container .content .row .card {
   margin-top: 15px;
   margin-bottom: 15px;
+  border: 1px solid #d8dee0;
 }
 
-.Recomanded .card .card-body {
+.Recomanded .container .content .row .card:hover {
+  border: 1px solid seagreen;
+}
+
+.Recomanded .container .content .row .card .card-body {
   padding: 5px;
   text-align: center;
 }
 
-.Recomanded .card .card-body img {
+.Recomanded .container .content .row .card .card-body img {
   height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.Recomanded .card .card-footer a {
+.Recomanded .container .content .row .card .card-footer a {
   text-decoration: none;
   color: gray;
   font-size: 14px;
 }
 
-.Recomanded .card .card-footer a :hover {
+.Recomanded .container .content .row .card .card-footer a :hover {
   color: green;
 }
 
-.Recomanded .card .card-footer p {
+.Recomanded .container .content .row .card .card-footer p {
   margin: 0;
+}
+
+.product .card:hover {
+  border: 1px solid cadetblue;
 }
 
 .product .card .card-body {
   text-align: center;
+  overflow: hidden;
+}
+
+.product .card .card-body:hover img {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .product .card .card-body img {
   height: 150px;
 }
 
-footer p, footer b {
+footer p,
+footer b {
   font-weight: 400;
   color: #141313;
 }
 
-footer p i, footer b i {
+footer p i,
+footer b i {
   color: slategray;
 }
 /*# sourceMappingURL=index.css.map */

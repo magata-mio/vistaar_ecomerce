@@ -1,64 +1,75 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 // Main nav bar
-.search{
-    form button{
+.search {
+    form button {
         background-color: transparent;
         border: none;
     }
-    form input,form select{
+
+    form input,
+    form select {
         background-color: transparent;
         border: none;
         border-radius: 0;
-        
+
     }
+
     form select.form-select {
-        option{
+        option {
             text-align: center;
         }
     }
+
     form input:focus,
-    form input:hover{
+    form input:hover {
         background-color: transparent;
     }
 }
-.menu{
-    .nav-item{
+
+.menu {
+    .nav-item {
         padding-top: 0;
         padding-bottom: 0;
-        .nav-link{
+
+        .nav-link {
             margin-top: 0;
             padding: 0 5px;
         }
     }
 }
+
 // Banner
-.banner{
+.banner {
     margin: 0;
     padding: 0;
-    .owl-carousel{
+
+    .owl-carousel {
         img {
             height: 300px;
         }
+
         @media only screen and (max-width:768px) {
-            img{
+            img {
                 height: 150px;
             }
         }
-        
+
     }
-    
+
 }
 
-.login{
-    .modal-body{
-        .list-group{
-            .list-group-item{
-                i{
+.login {
+    .modal-body {
+        .list-group {
+            .list-group-item {
+                i {
                     color: green;
                 }
-                span{
+
+                span {
                     color: seagreen;
                 }
             }
@@ -67,27 +78,34 @@ body {
 }
 
 // Mega Menu
-.mega-menu{
-    .navbar-toggler{
+.mega-menu {
+    .navbar-toggler {
         padding: 0;
         margin: 5px 0;
     }
-    .navbar-collapse{
+
+    .navbar-collapse {
         top: 50px;
     }
-    .menu-area{
+
+    .menu-area {
         position: static;
-        .mega-area{
+
+        .mega-area {
             position: absolute;
             width: 100%;
             left: 0;
             right: 0;
             padding: 15px;
-            .dropdown-item,a{
+
+            .dropdown-item,
+            a {
                 padding: 3px 0;
                 font-size: 14px;
                 font-weight: 300;
-                :hover,:focus{
+
+                :hover,
+                :focus {
                     color: seagreen;
                     background-color: transparent;
                 }
@@ -97,52 +115,84 @@ body {
 }
 
 // Trending
-.trending{
-    .row{
-        .card{
+.trending {
+    .row {
+        .card {
             margin: 7px 0;
-            .card-body{
-                img{
+
+            .card-body {
+                img {
                     height: 90px;
                 }
             }
-            
+
         }
     }
 }
+
 // Recomanded
-.Recomanded{
-    .card{
-        margin-top: 15px;
-        margin-bottom: 15px;
-        .card-body{
-            padding: 5px;
-            text-align: center;
-            img{
-                height: 200px;
-            }
-        }
-        .card-footer{
-            a{
-                text-decoration: none;
-                color: gray;
-                font-size: 14px;
-                :hover{
-                    color: green;
+.Recomanded {
+    .container {
+        .content {
+            .row {
+                .card {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    border: 1px solid rgb(216, 222, 224);
+
+                    &:hover {
+                        border: 1px solid seagreen;
+                    }
+
+                    .card-body {
+                        padding: 5px;
+                        text-align: center;
+
+                        img {
+                            height: 200px;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .card-footer {
+                        a {
+                            text-decoration: none;
+                            color: gray;
+                            font-size: 14px;
+
+                            :hover {
+                                color: green;
+                            }
+                        }
+
+                        p {
+                            margin: 0;
+                        }
+                    }
                 }
             }
-            p{
-                margin: 0;
-            }
         }
     }
+
 }
-// Product
-.product{
-    .card{
-        .card-body{
+
+// More Product
+.product {
+    .card {
+        &:hover {
+            border: 1px solid cadetblue;
+        }
+
+        .card-body {
             text-align: center;
-            img{
+            overflow: hidden;
+
+            &:hover img {
+                transition: 0.5s all;
+                transform: scale(1.2);
+            }
+
+            img {
                 height: 150px;
             }
         }
@@ -150,13 +200,16 @@ body {
 }
 
 // Footer
-footer{
-    p,b{
+footer {
+
+    p,
+    b {
         font-weight: 400;
         color: rgb(20, 19, 19);
-        i{
+
+        i {
             color: slategray;
         }
     }
-    
+
 }
