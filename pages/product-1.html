@@ -435,6 +435,7 @@
                                 <img src="../image/product/product-2.png" width="90" class="img-fluid" alt="">
                                 <p><a href="#" class="btn btn-sm btn-outline-secondary">Follow</a></p>
                             </div>
+                            <!-- Card Footer -->
                             <div class="card-footer bg-white">
                                 <div class="text-center text-md-start">
                                     <h1 class="fs-5"><a href="#" class="text-decoration-none text-dark">Velocity Tyre
@@ -453,15 +454,60 @@
                                 </div>
                                 <div class="text-center">
                                     <p class="text-muted mb-1">For more details on products</p>
-                                    <a href="#" class="btn btn-outline-primary btn-sm w-50">Contact Suppliers</a>
+                                    <!-- Button Contact Suppliers modal -->
+                                    <button type="button" class="btn btn-outline-primary btn-sm w-50"
+                                        data-bs-toggle="modal" data-bs-target="#contact-suppliers">
+                                        Contact Suppliers
+                                    </button>
                                     <!-- Button Price modal -->
-                                    <button type="button" class="btn btn-primary shadow-none" data-bs-toggle="modal"
-                                        data-bs-target="#get-best-price">
+                                    <button type="button" class="btn  btn-sm btn-primary shadow-none"
+                                        data-bs-toggle="modal" data-bs-target="#get-best-price">
                                         Get Best Price
                                     </button>
                                     <!-- 
                                     <p class="mt-2"><a href="#" class="btn btn-sm btn-primary w-50">Get Best Price</a>
                                     </p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal Contact Suppliers -->
+                    <div class="modal fade" id="contact-suppliers" tabindex="1" aria-labelledby="get_best_price_label"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="get_best_price_label">Suppliers Details</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h6>Suppliers Name</h6>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <div class="details d-flex">
+                                                <span style="min-width: 90px;">Email ID:</span>
+                                                <a href="#" class="text-success w-100">example@gmail.com</a>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="details d-flex">
+                                                <span style="min-width: 90px;">Contact :</span>
+                                                <a href="#" class="text-success w-100">9812345678</a>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="details d-flex">
+                                                <span style="min-width: 90px;">Address :</span>
+                                                <a href="#" class="text-success w-100">Dharan-1</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
                                 </div>
                             </div>
                         </div>
@@ -472,18 +518,28 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="get_best_price_label">See Your Price</h5>
+                                    <h5 class="modal-title" id="get_best_price_label">Set Your Price Details</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
+                                <!-- Form Start -->
                                 <div class="modal-body">
-                                    ...
-                                    <h1>Hello Customer</h1>
+                                    <form action="" method="post">
+                                        <div class="mb-3">
+                                            <label for="quantity" class="form-label">Quantity</label>
+                                            <input type="text" class="form-control" id="quantity"
+                                                placeholder="Quantity">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="description" class="form-label">Description</label>
+                                            <textarea class="form-control" id="description" rows="3"></textarea>
+                                        </div>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </form>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
                                         data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
                                 </div>
                             </div>
                         </div>
